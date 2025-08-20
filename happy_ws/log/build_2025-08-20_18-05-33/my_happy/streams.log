@@ -1,0 +1,37 @@
+[2.189s] Invoking command in '/home/st/edu25/edu25_athome/happy_ws/src/my_happy': PYTHONPATH=/home/st/edu25/edu25_athome/happy_ws/build/my_happy/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/st/edu25/edu25_athome/happy_ws/install/my_happy/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/my_happy build --build-base /home/st/edu25/edu25_athome/happy_ws/build/my_happy/build install --record /home/st/edu25/edu25_athome/happy_ws/build/my_happy/install.log --single-version-externally-managed install_data
+[3.041s] running egg_info
+[3.041s] creating ../../build/my_happy/my_happy.egg-info
+[3.054s] writing ../../build/my_happy/my_happy.egg-info/PKG-INFO
+[3.056s] writing dependency_links to ../../build/my_happy/my_happy.egg-info/dependency_links.txt
+[3.057s] writing entry points to ../../build/my_happy/my_happy.egg-info/entry_points.txt
+[3.057s] writing requirements to ../../build/my_happy/my_happy.egg-info/requires.txt
+[3.057s] writing top-level names to ../../build/my_happy/my_happy.egg-info/top_level.txt
+[3.058s] writing manifest file '../../build/my_happy/my_happy.egg-info/SOURCES.txt'
+[3.058s] reading manifest file '../../build/my_happy/my_happy.egg-info/SOURCES.txt'
+[3.067s] writing manifest file '../../build/my_happy/my_happy.egg-info/SOURCES.txt'
+[3.068s] running build
+[3.068s] running build_py
+[3.074s] creating /home/st/edu25/edu25_athome/happy_ws/build/my_happy/build
+[3.075s] creating /home/st/edu25/edu25_athome/happy_ws/build/my_happy/build/lib
+[3.075s] creating /home/st/edu25/edu25_athome/happy_ws/build/my_happy/build/lib/my_happy
+[3.075s] copying my_happy/happy_node.py -> /home/st/edu25/edu25_athome/happy_ws/build/my_happy/build/lib/my_happy
+[3.076s] copying my_happy/__init__.py -> /home/st/edu25/edu25_athome/happy_ws/build/my_happy/build/lib/my_happy
+[3.076s] running install
+[3.076s] running install_lib
+[3.079s] creating /home/st/edu25/edu25_athome/happy_ws/install/my_happy/lib/python3.10/site-packages/my_happy
+[3.079s] copying /home/st/edu25/edu25_athome/happy_ws/build/my_happy/build/lib/my_happy/happy_node.py -> /home/st/edu25/edu25_athome/happy_ws/install/my_happy/lib/python3.10/site-packages/my_happy
+[3.079s] copying /home/st/edu25/edu25_athome/happy_ws/build/my_happy/build/lib/my_happy/__init__.py -> /home/st/edu25/edu25_athome/happy_ws/install/my_happy/lib/python3.10/site-packages/my_happy
+[3.083s] byte-compiling /home/st/edu25/edu25_athome/happy_ws/install/my_happy/lib/python3.10/site-packages/my_happy/happy_node.py to happy_node.cpython-310.pyc
+[3.091s] byte-compiling /home/st/edu25/edu25_athome/happy_ws/install/my_happy/lib/python3.10/site-packages/my_happy/__init__.py to __init__.cpython-310.pyc
+[3.092s] running install_data
+[3.092s] creating /home/st/edu25/edu25_athome/happy_ws/install/my_happy/share/ament_index
+[3.092s] creating /home/st/edu25/edu25_athome/happy_ws/install/my_happy/share/ament_index/resource_index
+[3.092s] creating /home/st/edu25/edu25_athome/happy_ws/install/my_happy/share/ament_index/resource_index/packages
+[3.100s] copying resource/my_happy -> /home/st/edu25/edu25_athome/happy_ws/install/my_happy/share/ament_index/resource_index/packages
+[3.100s] copying package.xml -> /home/st/edu25/edu25_athome/happy_ws/install/my_happy/share/my_happy
+[3.100s] running install_egg_info
+[3.107s] Copying ../../build/my_happy/my_happy.egg-info to /home/st/edu25/edu25_athome/happy_ws/install/my_happy/lib/python3.10/site-packages/my_happy-0.0.0-py3.10.egg-info
+[3.115s] running install_scripts
+[3.203s] Installing happy_node script to /home/st/edu25/edu25_athome/happy_ws/install/my_happy/lib/my_happy
+[3.204s] writing list of installed files to '/home/st/edu25/edu25_athome/happy_ws/build/my_happy/install.log'
+[3.266s] Invoked command in '/home/st/edu25/edu25_athome/happy_ws/src/my_happy' returned '0': PYTHONPATH=/home/st/edu25/edu25_athome/happy_ws/build/my_happy/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/st/edu25/edu25_athome/happy_ws/install/my_happy/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/my_happy build --build-base /home/st/edu25/edu25_athome/happy_ws/build/my_happy/build install --record /home/st/edu25/edu25_athome/happy_ws/build/my_happy/install.log --single-version-externally-managed install_data
