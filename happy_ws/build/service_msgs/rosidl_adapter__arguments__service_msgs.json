@@ -1,0 +1,6 @@
+{
+  "package_name": "service_msgs",
+  "non_idl_tuples": [
+    "/home/st/edu25/edu25_athome/happy_ws/src/service_msgs:srv/StringCommand.srv"
+  ]
+}

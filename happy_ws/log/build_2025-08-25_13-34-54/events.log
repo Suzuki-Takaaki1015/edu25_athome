@@ -1,0 +1,155 @@
+[0.000000] (-) TimerEvent: {}
+[0.002131] (my_happy) JobQueued: {'identifier': 'my_happy', 'dependencies': OrderedDict()}
+[0.002234] (service) JobQueued: {'identifier': 'service', 'dependencies': OrderedDict()}
+[0.002297] (service_msgs) JobQueued: {'identifier': 'service_msgs', 'dependencies': OrderedDict()}
+[0.002354] (my_happy) JobStarted: {'identifier': 'my_happy'}
+[0.046178] (service) JobStarted: {'identifier': 'service'}
+[0.096156] (-) TimerEvent: {}
+[0.197101] (-) TimerEvent: {}
+[0.297671] (-) TimerEvent: {}
+[0.399499] (-) TimerEvent: {}
+[0.501204] (-) TimerEvent: {}
+[0.602733] (-) TimerEvent: {}
+[0.707919] (-) TimerEvent: {}
+[0.809115] (-) TimerEvent: {}
+[0.910070] (-) TimerEvent: {}
+[1.011140] (-) TimerEvent: {}
+[1.112908] (-) TimerEvent: {}
+[1.213629] (-) TimerEvent: {}
+[1.314314] (-) TimerEvent: {}
+[1.416264] (-) TimerEvent: {}
+[1.518074] (-) TimerEvent: {}
+[1.620129] (-) TimerEvent: {}
+[1.721154] (-) TimerEvent: {}
+[1.823349] (-) TimerEvent: {}
+[1.923903] (-) TimerEvent: {}
+[2.024510] (-) TimerEvent: {}
+[2.127408] (-) TimerEvent: {}
+[2.228140] (-) TimerEvent: {}
+[2.328944] (-) TimerEvent: {}
+[2.431514] (-) TimerEvent: {}
+[2.533551] (-) TimerEvent: {}
+[2.636362] (-) TimerEvent: {}
+[2.736930] (-) TimerEvent: {}
+[2.837526] (-) TimerEvent: {}
+[2.938784] (-) TimerEvent: {}
+[3.040351] (-) TimerEvent: {}
+[3.110255] (service) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/service', 'build', '--build-base', '/home/st/edu25/edu25_athome/happy_ws/build/service/build', 'install', '--record', '/home/st/edu25/edu25_athome/happy_ws/build/service/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/st/edu25/edu25_athome/happy_ws/src/service', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'LANGUAGE': 'en_US:', 'USER': 'st', 'LC_TIME': 'ja_JP.UTF-8', 'XDG_SESSION_TYPE': 'wayland', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib', 'HOME': '/home/st', 'OLDPWD': '/home/st/edu25/edu25_athome/happy_ws/src', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'LC_MONETARY': 'ja_JP.UTF-8', 'SYSTEMD_EXEC_PID': '3228', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'ROS_DISTRO': 'humble', 'LOGNAME': 'st', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'st', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/ST:@/tmp/.ICE-unix/2966,unix/ST:/tmp/.ICE-unix/2966', 'XDG_MENU_PREFIX': 'gnome-', 'LC_ADDRESS': 'ja_JP.UTF-8', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/75dca1a1_eaa4_4d66_a663_5942c7894760', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'LC_TELEPHONE': 'ja_JP.UTF-8', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.YYSLB3', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'GNOME_TERMINAL_SERVICE': ':1.112', 'SSH_AGENT_LAUNCHER': 'gnome-keyring', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/opt/ros/humble', 'SHELL': '/bin/bash', 'LC_NAME': 'ja_JP.UTF-8', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'LC_MEASUREMENT': 'ja_JP.UTF-8', 'LC_IDENTIFICATION': 'ja_JP.UTF-8', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/st/edu25/edu25_athome/happy_ws/build/service', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/st/edu25/edu25_athome/happy_ws/build/service/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/st/edu25/edu25_athome/happy_ws/install/service/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'LC_NUMERIC': 'ja_JP.UTF-8', 'LC_PAPER': 'ja_JP.UTF-8', 'COLCON': '1', 'VTE_VERSION': '6800'}, 'shell': False}
+[3.127621] (my_happy) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/my_happy', 'build', '--build-base', '/home/st/edu25/edu25_athome/happy_ws/build/my_happy/build', 'install', '--record', '/home/st/edu25/edu25_athome/happy_ws/build/my_happy/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/st/edu25/edu25_athome/happy_ws/src/my_happy', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'LANGUAGE': 'en_US:', 'USER': 'st', 'LC_TIME': 'ja_JP.UTF-8', 'XDG_SESSION_TYPE': 'wayland', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib', 'HOME': '/home/st', 'OLDPWD': '/home/st/edu25/edu25_athome/happy_ws/src', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'LC_MONETARY': 'ja_JP.UTF-8', 'SYSTEMD_EXEC_PID': '3228', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'ROS_DISTRO': 'humble', 'LOGNAME': 'st', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'st', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/ST:@/tmp/.ICE-unix/2966,unix/ST:/tmp/.ICE-unix/2966', 'XDG_MENU_PREFIX': 'gnome-', 'LC_ADDRESS': 'ja_JP.UTF-8', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/75dca1a1_eaa4_4d66_a663_5942c7894760', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'LC_TELEPHONE': 'ja_JP.UTF-8', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.YYSLB3', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'GNOME_TERMINAL_SERVICE': ':1.112', 'SSH_AGENT_LAUNCHER': 'gnome-keyring', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/opt/ros/humble', 'SHELL': '/bin/bash', 'LC_NAME': 'ja_JP.UTF-8', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'LC_MEASUREMENT': 'ja_JP.UTF-8', 'LC_IDENTIFICATION': 'ja_JP.UTF-8', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/st/edu25/edu25_athome/happy_ws/build/my_happy', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/st/edu25/edu25_athome/happy_ws/build/my_happy/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/st/edu25/edu25_athome/happy_ws/install/my_happy/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'LC_NUMERIC': 'ja_JP.UTF-8', 'LC_PAPER': 'ja_JP.UTF-8', 'COLCON': '1', 'VTE_VERSION': '6800'}, 'shell': False}
+[3.143157] (-) TimerEvent: {}
+[3.243691] (-) TimerEvent: {}
+[3.344362] (-) TimerEvent: {}
+[3.444947] (-) TimerEvent: {}
+[3.547326] (-) TimerEvent: {}
+[3.648516] (-) TimerEvent: {}
+[3.751149] (-) TimerEvent: {}
+[3.851841] (-) TimerEvent: {}
+[3.922590] (my_happy) StdoutLine: {'line': b'running egg_info\n'}
+[3.926112] (my_happy) StdoutLine: {'line': b'writing ../../build/my_happy/my_happy.egg-info/PKG-INFO\n'}
+[3.928271] (my_happy) StdoutLine: {'line': b'writing dependency_links to ../../build/my_happy/my_happy.egg-info/dependency_links.txt\n'}
+[3.928693] (my_happy) StdoutLine: {'line': b'writing entry points to ../../build/my_happy/my_happy.egg-info/entry_points.txt\n'}
+[3.930227] (my_happy) StdoutLine: {'line': b'writing requirements to ../../build/my_happy/my_happy.egg-info/requires.txt\n'}
+[3.931326] (my_happy) StdoutLine: {'line': b'writing top-level names to ../../build/my_happy/my_happy.egg-info/top_level.txt\n'}
+[3.938085] (my_happy) StdoutLine: {'line': b"reading manifest file '../../build/my_happy/my_happy.egg-info/SOURCES.txt'\n"}
+[3.952703] (-) TimerEvent: {}
+[3.959220] (my_happy) StdoutLine: {'line': b"writing manifest file '../../build/my_happy/my_happy.egg-info/SOURCES.txt'\n"}
+[3.959799] (my_happy) StdoutLine: {'line': b'running build\n'}
+[3.960757] (my_happy) StdoutLine: {'line': b'running build_py\n'}
+[3.962169] (my_happy) StdoutLine: {'line': b'running install\n'}
+[3.965258] (my_happy) StdoutLine: {'line': b'running install_lib\n'}
+[3.967504] (my_happy) StdoutLine: {'line': b'running install_data\n'}
+[3.968365] (my_happy) StdoutLine: {'line': b'running install_egg_info\n'}
+[3.974744] (my_happy) StdoutLine: {'line': b"removing '/home/st/edu25/edu25_athome/happy_ws/install/my_happy/lib/python3.10/site-packages/my_happy-0.0.0-py3.10.egg-info' (and everything under it)\n"}
+[3.975286] (my_happy) StdoutLine: {'line': b'Copying ../../build/my_happy/my_happy.egg-info to /home/st/edu25/edu25_athome/happy_ws/install/my_happy/lib/python3.10/site-packages/my_happy-0.0.0-py3.10.egg-info\n'}
+[3.976195] (service) StdoutLine: {'line': b'running egg_info\n'}
+[3.978093] (service) StdoutLine: {'line': b'creating ../../build/service/service.egg-info\n'}
+[3.980242] (service) StdoutLine: {'line': b'writing ../../build/service/service.egg-info/PKG-INFO\n'}
+[3.980557] (service) StdoutLine: {'line': b'writing dependency_links to ../../build/service/service.egg-info/dependency_links.txt\n'}
+[3.980778] (service) StdoutLine: {'line': b'writing entry points to ../../build/service/service.egg-info/entry_points.txt\n'}
+[3.980997] (service) StdoutLine: {'line': b'writing requirements to ../../build/service/service.egg-info/requires.txt\n'}
+[3.981256] (service) StdoutLine: {'line': b'writing top-level names to ../../build/service/service.egg-info/top_level.txt\n'}
+[3.985170] (my_happy) StdoutLine: {'line': b'running install_scripts\n'}
+[3.985595] (service) StdoutLine: {'line': b"writing manifest file '../../build/service/service.egg-info/SOURCES.txt'\n"}
+[3.994153] (service) StdoutLine: {'line': b"reading manifest file '../../build/service/service.egg-info/SOURCES.txt'\n"}
+[3.997147] (service) StdoutLine: {'line': b"writing manifest file '../../build/service/service.egg-info/SOURCES.txt'\n"}
+[3.998360] (service) StdoutLine: {'line': b'running build\n'}
+[3.998661] (service) StdoutLine: {'line': b'running build_py\n'}
+[3.999136] (service) StdoutLine: {'line': b'creating /home/st/edu25/edu25_athome/happy_ws/build/service/build\n'}
+[3.999400] (service) StdoutLine: {'line': b'creating /home/st/edu25/edu25_athome/happy_ws/build/service/build/lib\n'}
+[3.999710] (service) StdoutLine: {'line': b'creating /home/st/edu25/edu25_athome/happy_ws/build/service/build/lib/service\n'}
+[3.999916] (service) StdoutLine: {'line': b'copying service/__init__.py -> /home/st/edu25/edu25_athome/happy_ws/build/service/build/lib/service\n'}
+[4.000285] (service) StdoutLine: {'line': b'running install\n'}
+[4.001156] (service) StdoutLine: {'line': b'running install_lib\n'}
+[4.003392] (service) StdoutLine: {'line': b'creating /home/st/edu25/edu25_athome/happy_ws/install/service/lib/python3.10/site-packages/service\n'}
+[4.003792] (service) StdoutLine: {'line': b'copying /home/st/edu25/edu25_athome/happy_ws/build/service/build/lib/service/__init__.py -> /home/st/edu25/edu25_athome/happy_ws/install/service/lib/python3.10/site-packages/service\n'}
+[4.005159] (service) StdoutLine: {'line': b'byte-compiling /home/st/edu25/edu25_athome/happy_ws/install/service/lib/python3.10/site-packages/service/__init__.py to __init__.cpython-310.pyc\n'}
+[4.005906] (service) StdoutLine: {'line': b'running install_data\n'}
+[4.006365] (service) StdoutLine: {'line': b'creating /home/st/edu25/edu25_athome/happy_ws/install/service/share/ament_index\n'}
+[4.007454] (service) StdoutLine: {'line': b'creating /home/st/edu25/edu25_athome/happy_ws/install/service/share/ament_index/resource_index\n'}
+[4.007824] (service) StdoutLine: {'line': b'creating /home/st/edu25/edu25_athome/happy_ws/install/service/share/ament_index/resource_index/packages\n'}
+[4.010217] (service) StdoutLine: {'line': b'copying resource/service -> /home/st/edu25/edu25_athome/happy_ws/install/service/share/ament_index/resource_index/packages\n'}
+[4.010564] (service) StdoutLine: {'line': b'copying package.xml -> /home/st/edu25/edu25_athome/happy_ws/install/service/share/service\n'}
+[4.010908] (service) StdoutLine: {'line': b'running install_egg_info\n'}
+[4.013742] (service) StdoutLine: {'line': b'Copying ../../build/service/service.egg-info to /home/st/edu25/edu25_athome/happy_ws/install/service/lib/python3.10/site-packages/service-0.0.0-py3.10.egg-info\n'}
+[4.017936] (service) StdoutLine: {'line': b'running install_scripts\n'}
+[4.052875] (-) TimerEvent: {}
+[4.057430] (my_happy) StdoutLine: {'line': b'Installing happy_node script to /home/st/edu25/edu25_athome/happy_ws/install/my_happy/lib/my_happy\n'}
+[4.059683] (my_happy) StdoutLine: {'line': b"writing list of installed files to '/home/st/edu25/edu25_athome/happy_ws/build/my_happy/install.log'\n"}
+[4.087642] (service) StdoutLine: {'line': b"writing list of installed files to '/home/st/edu25/edu25_athome/happy_ws/build/service/install.log'\n"}
+[4.130721] (my_happy) CommandEnded: {'returncode': 0}
+[4.153939] (-) TimerEvent: {}
+[4.221306] (my_happy) JobEnded: {'identifier': 'my_happy', 'rc': 0}
+[4.224060] (service_msgs) JobStarted: {'identifier': 'service_msgs'}
+[4.236173] (service) CommandEnded: {'returncode': 0}
+[4.248742] (service) JobEnded: {'identifier': 'service', 'rc': 0}
+[4.252354] (service_msgs) JobProgress: {'identifier': 'service_msgs', 'progress': 'cmake'}
+[4.257819] (service_msgs) Command: {'cmd': ['/usr/bin/cmake', '/home/st/edu25/edu25_athome/happy_ws/src/service_msgs', '-DCMAKE_INSTALL_PREFIX=/home/st/edu25/edu25_athome/happy_ws/install/service_msgs'], 'cwd': '/home/st/edu25/edu25_athome/happy_ws/build/service_msgs', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_US:'), ('USER', 'st'), ('LC_TIME', 'ja_JP.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/st'), ('OLDPWD', '/home/st/edu25/edu25_athome/happy_ws/src'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'ja_JP.UTF-8'), ('SYSTEMD_EXEC_PID', '3228'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'st'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'st'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/ST:@/tmp/.ICE-unix/2966,unix/ST:/tmp/.ICE-unix/2966'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'ja_JP.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/75dca1a1_eaa4_4d66_a663_5942c7894760'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'ja_JP.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.YYSLB3'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.112'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'ja_JP.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'ja_JP.UTF-8'), ('LC_IDENTIFICATION', 'ja_JP.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/st/edu25/edu25_athome/happy_ws/build/service_msgs'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'ja_JP.UTF-8'), ('LC_PAPER', 'ja_JP.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[4.260232] (-) TimerEvent: {}
+[4.361148] (-) TimerEvent: {}
+[4.461758] (-) TimerEvent: {}
+[4.562804] (-) TimerEvent: {}
+[4.663554] (-) TimerEvent: {}
+[4.721158] (service_msgs) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[4.763800] (-) TimerEvent: {}
+[4.864936] (-) TimerEvent: {}
+[4.965788] (-) TimerEvent: {}
+[5.068147] (-) TimerEvent: {}
+[5.111086] (service_msgs) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[5.153468] (service_msgs) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[5.168322] (-) TimerEvent: {}
+[5.270260] (-) TimerEvent: {}
+[5.372535] (-) TimerEvent: {}
+[5.395141] (service_msgs) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[5.418746] (service_msgs) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[5.425150] (service_msgs) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[5.430197] (service_msgs) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[5.448144] (service_msgs) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[5.472689] (-) TimerEvent: {}
+[5.573193] (-) TimerEvent: {}
+[5.673785] (-) TimerEvent: {}
+[5.751963] (service_msgs) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[5.775345] (service_msgs) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[5.775732] (-) TimerEvent: {}
+[5.776327] (service_msgs) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[5.778149] (service_msgs) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[5.795310] (service_msgs) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[5.875899] (-) TimerEvent: {}
+[5.976817] (-) TimerEvent: {}
+[6.078496] (-) TimerEvent: {}
+[6.180141] (-) TimerEvent: {}
+[6.280916] (-) TimerEvent: {}
+[6.376007] (service_msgs) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter \n'}
+[6.381182] (-) TimerEvent: {}
+[6.484747] (-) TimerEvent: {}
+[6.586991] (-) TimerEvent: {}
+[6.687673] (-) TimerEvent: {}
+[6.752900] (service_msgs) StderrLine: {'line': b'\x1b[31mCMake Error at CMakeLists.txt:14 (rosidl_generate_interfaces):\n'}
+[6.753626] (service_msgs) StderrLine: {'line': b'  Unknown CMake command "rosidl_generate_interfaces".\n'}
+[6.753824] (service_msgs) StderrLine: {'line': b'\n'}
+[6.753981] (service_msgs) StderrLine: {'line': b'\x1b[0m\n'}
+[6.754171] (service_msgs) StdoutLine: {'line': b'-- Configuring incomplete, errors occurred!\n'}
+[6.754335] (service_msgs) StdoutLine: {'line': b'See also "/home/st/edu25/edu25_athome/happy_ws/build/service_msgs/CMakeFiles/CMakeOutput.log".\n'}
+[6.763675] (service_msgs) CommandEnded: {'returncode': 1}
+[6.788336] (-) TimerEvent: {}
+[6.803368] (service_msgs) JobEnded: {'identifier': 'service_msgs', 'rc': 1}
+[6.814594] (-) EventReactorShutdown: {}

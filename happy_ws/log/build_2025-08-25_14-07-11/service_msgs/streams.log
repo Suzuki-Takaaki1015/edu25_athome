@@ -1,0 +1,151 @@
+[0.054s] Invoking command in '/home/st/edu25/edu25_athome/happy_ws/build/service_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/st/edu25/edu25_athome/happy_ws/install/service:/home/st/edu25/edu25_athome/happy_ws/install/my_happy:/opt/ros/humble /usr/bin/cmake --build /home/st/edu25/edu25_athome/happy_ws/build/service_msgs -- -j2 -l2
+[0.297s] [  3%] Built target service_msgs__cpp
+[0.306s] [ 12%] Built target service_msgs__rosidl_generator_c
+[0.411s] [ 22%] Built target service_msgs__rosidl_typesupport_fastrtps_cpp
+[0.426s] [ 22%] Built target ament_cmake_python_copy_service_msgs
+[0.506s] [ 32%] Built target service_msgs__rosidl_typesupport_introspection_cpp
+[0.526s] [ 41%] Built target service_msgs__rosidl_typesupport_cpp
+[0.602s] [ 51%] Built target service_msgs__rosidl_typesupport_fastrtps_c
+[0.629s] [ 61%] Built target service_msgs__rosidl_typesupport_introspection_c
+[0.719s] [ 70%] Built target service_msgs__rosidl_typesupport_c
+[0.815s] [ 70%] Built target service_msgs
+[0.916s] [ 74%] Built target service_msgs__py
+[1.016s] [ 80%] Built target service_msgs__rosidl_generator_py
+[1.115s] [ 87%] Built target service_msgs__rosidl_typesupport_fastrtps_c__pyext
+[1.215s] [ 93%] Built target service_msgs__rosidl_typesupport_introspection_c__pyext
+[1.322s] [100%] Built target service_msgs__rosidl_typesupport_c__pyext
+[1.568s] running egg_info
+[1.569s] writing service_msgs.egg-info/PKG-INFO
+[1.571s] writing dependency_links to service_msgs.egg-info/dependency_links.txt
+[1.572s] writing top-level names to service_msgs.egg-info/top_level.txt
+[1.578s] reading manifest file 'service_msgs.egg-info/SOURCES.txt'
+[1.581s] writing manifest file 'service_msgs.egg-info/SOURCES.txt'
+[1.676s] [100%] Built target ament_cmake_python_build_service_msgs_egg
+[1.724s] Invoked command in '/home/st/edu25/edu25_athome/happy_ws/build/service_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/st/edu25/edu25_athome/happy_ws/install/service:/home/st/edu25/edu25_athome/happy_ws/install/my_happy:/opt/ros/humble /usr/bin/cmake --build /home/st/edu25/edu25_athome/happy_ws/build/service_msgs -- -j2 -l2
+[1.760s] Invoking command in '/home/st/edu25/edu25_athome/happy_ws/build/service_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/st/edu25/edu25_athome/happy_ws/install/service:/home/st/edu25/edu25_athome/happy_ws/install/my_happy:/opt/ros/humble /usr/bin/cmake --install /home/st/edu25/edu25_athome/happy_ws/build/service_msgs
+[1.810s] -- Install configuration: ""
+[1.811s] -- Up-to-date: /home/st/edu25/edu25_athome/happy_ws/install/service_msgs/share/ament_index/resource_index/rosidl_interfaces/service_msgs
+[1.811s] -- Up-to-date: /home/st/edu25/edu25_athome/happy_ws/install/service_msgs/include/service_msgs/service_msgs
+[1.812s] -- Up-to-date: /home/st/edu25/edu25_athome/happy_ws/install/service_msgs/include/service_msgs/service_msgs/srv
+[1.812s] -- Up-to-date: /home/st/edu25/edu25_athome/happy_ws/install/service_msgs/include/service_msgs/service_msgs/srv/detail
+[1.814s] -- Up-to-date: /home/st/edu25/edu25_athome/happy_ws/install/service_msgs/include/service_msgs/service_msgs/srv/detail/string_command__functions.c
+[1.814s] -- Up-to-date: /home/st/edu25/edu25_athome/happy_ws/install/service_msgs/include/service_msgs/service_msgs/srv/detail/string_command__type_support.h
+[1.815s] -- Up-to-date: /home/st/edu25/edu25_athome/happy_ws/install/service_msgs/include/service_msgs/service_msgs/srv/detail/string_command__struct.h
+[1.816s] -- Up-to-date: /home/st/edu25/edu25_athome/happy_ws/install/service_msgs/include/service_msgs/service_msgs/srv/detail/string_command__functions.h
+[1.817s] -- Up-to-date: /home/st/edu25/edu25_athome/happy_ws/install/service_msgs/include/service_msgs/service_msgs/srv/string_command.h
+[1.817s] -- Up-to-date: /home/st/edu25/edu25_athome/happy_ws/install/service_msgs/include/service_msgs/service_msgs/msg
+[1.817s] -- Up-to-date: /home/st/edu25/edu25_athome/happy_ws/install/service_msgs/include/service_msgs/service_msgs/msg/rosidl_generator_c__visibility_control.h
+[1.818s] -- Up-to-date: /home/st/edu25/edu25_athome/happy_ws/install/service_msgs/share/service_msgs/environment/library_path.sh
+[1.819s] -- Up-to-date: /home/st/edu25/edu25_athome/happy_ws/install/service_msgs/share/service_msgs/environment/library_path.dsv
+[1.819s] -- Up-to-date: /home/st/edu25/edu25_athome/happy_ws/install/service_msgs/lib/libservice_msgs__rosidl_generator_c.so
+[1.819s] -- Up-to-date: /home/st/edu25/edu25_athome/happy_ws/install/service_msgs/include/service_msgs/service_msgs
+[1.820s] -- Up-to-date: /home/st/edu25/edu25_athome/happy_ws/install/service_msgs/include/service_msgs/service_msgs/srv
+[1.820s] -- Up-to-date: /home/st/edu25/edu25_athome/happy_ws/install/service_msgs/include/service_msgs/service_msgs/srv/detail
+[1.820s] -- Up-to-date: /home/st/edu25/edu25_athome/happy_ws/install/service_msgs/include/service_msgs/service_msgs/srv/detail/string_command__rosidl_typesupport_fastrtps_c.h
+[1.822s] -- Up-to-date: /home/st/edu25/edu25_athome/happy_ws/install/service_msgs/include/service_msgs/service_msgs/msg
+[1.822s] -- Up-to-date: /home/st/edu25/edu25_athome/happy_ws/install/service_msgs/include/service_msgs/service_msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[1.823s] -- Up-to-date: /home/st/edu25/edu25_athome/happy_ws/install/service_msgs/lib/libservice_msgs__rosidl_typesupport_fastrtps_c.so
+[1.826s] -- Up-to-date: /home/st/edu25/edu25_athome/happy_ws/install/service_msgs/include/service_msgs/service_msgs
+[1.826s] -- Up-to-date: /home/st/edu25/edu25_athome/happy_ws/install/service_msgs/include/service_msgs/service_msgs/srv
+[1.826s] -- Up-to-date: /home/st/edu25/edu25_athome/happy_ws/install/service_msgs/include/service_msgs/service_msgs/srv/detail
+[1.826s] -- Up-to-date: /home/st/edu25/edu25_athome/happy_ws/install/service_msgs/include/service_msgs/service_msgs/srv/detail/string_command__type_support.c
+[1.827s] -- Up-to-date: /home/st/edu25/edu25_athome/happy_ws/install/service_msgs/include/service_msgs/service_msgs/srv/detail/string_command__rosidl_typesupport_introspection_c.h
+[1.827s] -- Up-to-date: /home/st/edu25/edu25_athome/happy_ws/install/service_msgs/include/service_msgs/service_msgs/msg
+[1.827s] -- Up-to-date: /home/st/edu25/edu25_athome/happy_ws/install/service_msgs/include/service_msgs/service_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[1.828s] -- Up-to-date: /home/st/edu25/edu25_athome/happy_ws/install/service_msgs/lib/libservice_msgs__rosidl_typesupport_introspection_c.so
+[1.830s] -- Up-to-date: /home/st/edu25/edu25_athome/happy_ws/install/service_msgs/lib/libservice_msgs__rosidl_typesupport_c.so
+[1.833s] -- Up-to-date: /home/st/edu25/edu25_athome/happy_ws/install/service_msgs/include/service_msgs/service_msgs
+[1.834s] -- Up-to-date: /home/st/edu25/edu25_athome/happy_ws/install/service_msgs/include/service_msgs/service_msgs/srv
+[1.834s] -- Up-to-date: /home/st/edu25/edu25_athome/happy_ws/install/service_msgs/include/service_msgs/service_msgs/srv/string_command.hpp
+[1.836s] -- Up-to-date: /home/st/edu25/edu25_athome/happy_ws/install/service_msgs/include/service_msgs/service_msgs/srv/detail
+[1.837s] -- Up-to-date: /home/st/edu25/edu25_athome/happy_ws/install/service_msgs/include/service_msgs/service_msgs/srv/detail/string_command__struct.hpp
+[1.837s] -- Up-to-date: /home/st/edu25/edu25_athome/happy_ws/install/service_msgs/include/service_msgs/service_msgs/srv/detail/string_command__traits.hpp
+[1.837s] -- Up-to-date: /home/st/edu25/edu25_athome/happy_ws/install/service_msgs/include/service_msgs/service_msgs/srv/detail/string_command__type_support.hpp
+[1.837s] -- Up-to-date: /home/st/edu25/edu25_athome/happy_ws/install/service_msgs/include/service_msgs/service_msgs/srv/detail/string_command__builder.hpp
+[1.837s] -- Up-to-date: /home/st/edu25/edu25_athome/happy_ws/install/service_msgs/include/service_msgs/service_msgs/msg
+[1.838s] -- Up-to-date: /home/st/edu25/edu25_athome/happy_ws/install/service_msgs/include/service_msgs/service_msgs/msg/rosidl_generator_cpp__visibility_control.hpp
+[1.838s] -- Up-to-date: /home/st/edu25/edu25_athome/happy_ws/install/service_msgs/include/service_msgs/service_msgs
+[1.838s] -- Up-to-date: /home/st/edu25/edu25_athome/happy_ws/install/service_msgs/include/service_msgs/service_msgs/srv
+[1.839s] -- Up-to-date: /home/st/edu25/edu25_athome/happy_ws/install/service_msgs/include/service_msgs/service_msgs/srv/detail
+[1.839s] -- Up-to-date: /home/st/edu25/edu25_athome/happy_ws/install/service_msgs/include/service_msgs/service_msgs/srv/detail/string_command__rosidl_typesupport_fastrtps_cpp.hpp
+[1.839s] -- Up-to-date: /home/st/edu25/edu25_athome/happy_ws/install/service_msgs/include/service_msgs/service_msgs/srv/detail/dds_fastrtps
+[1.839s] -- Up-to-date: /home/st/edu25/edu25_athome/happy_ws/install/service_msgs/include/service_msgs/service_msgs/msg
+[1.840s] -- Up-to-date: /home/st/edu25/edu25_athome/happy_ws/install/service_msgs/include/service_msgs/service_msgs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[1.840s] -- Up-to-date: /home/st/edu25/edu25_athome/happy_ws/install/service_msgs/lib/libservice_msgs__rosidl_typesupport_fastrtps_cpp.so
+[1.840s] -- Up-to-date: /home/st/edu25/edu25_athome/happy_ws/install/service_msgs/include/service_msgs/service_msgs
+[1.841s] -- Up-to-date: /home/st/edu25/edu25_athome/happy_ws/install/service_msgs/include/service_msgs/service_msgs/srv
+[1.841s] -- Up-to-date: /home/st/edu25/edu25_athome/happy_ws/install/service_msgs/include/service_msgs/service_msgs/srv/detail
+[1.841s] -- Up-to-date: /home/st/edu25/edu25_athome/happy_ws/install/service_msgs/include/service_msgs/service_msgs/srv/detail/string_command__type_support.cpp
+[1.841s] -- Up-to-date: /home/st/edu25/edu25_athome/happy_ws/install/service_msgs/include/service_msgs/service_msgs/srv/detail/string_command__rosidl_typesupport_introspection_cpp.hpp
+[1.842s] -- Up-to-date: /home/st/edu25/edu25_athome/happy_ws/install/service_msgs/lib/libservice_msgs__rosidl_typesupport_introspection_cpp.so
+[1.842s] -- Up-to-date: /home/st/edu25/edu25_athome/happy_ws/install/service_msgs/lib/libservice_msgs__rosidl_typesupport_cpp.so
+[1.842s] -- Up-to-date: /home/st/edu25/edu25_athome/happy_ws/install/service_msgs/share/service_msgs/environment/pythonpath.sh
+[1.843s] -- Up-to-date: /home/st/edu25/edu25_athome/happy_ws/install/service_msgs/share/service_msgs/environment/pythonpath.dsv
+[1.843s] -- Up-to-date: /home/st/edu25/edu25_athome/happy_ws/install/service_msgs/local/lib/python3.10/dist-packages/service_msgs-0.0.0-py3.10.egg-info
+[1.843s] -- Installing: /home/st/edu25/edu25_athome/happy_ws/install/service_msgs/local/lib/python3.10/dist-packages/service_msgs-0.0.0-py3.10.egg-info/SOURCES.txt
+[1.844s] -- Installing: /home/st/edu25/edu25_athome/happy_ws/install/service_msgs/local/lib/python3.10/dist-packages/service_msgs-0.0.0-py3.10.egg-info/top_level.txt
+[1.845s] -- Installing: /home/st/edu25/edu25_athome/happy_ws/install/service_msgs/local/lib/python3.10/dist-packages/service_msgs-0.0.0-py3.10.egg-info/PKG-INFO
+[1.849s] -- Installing: /home/st/edu25/edu25_athome/happy_ws/install/service_msgs/local/lib/python3.10/dist-packages/service_msgs-0.0.0-py3.10.egg-info/dependency_links.txt
+[1.849s] -- Up-to-date: /home/st/edu25/edu25_athome/happy_ws/install/service_msgs/local/lib/python3.10/dist-packages/service_msgs
+[1.849s] -- Up-to-date: /home/st/edu25/edu25_athome/happy_ws/install/service_msgs/local/lib/python3.10/dist-packages/service_msgs/libservice_msgs__rosidl_generator_py.so
+[1.849s] -- Up-to-date: /home/st/edu25/edu25_athome/happy_ws/install/service_msgs/local/lib/python3.10/dist-packages/service_msgs/service_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[1.850s] -- Up-to-date: /home/st/edu25/edu25_athome/happy_ws/install/service_msgs/local/lib/python3.10/dist-packages/service_msgs/_service_msgs_s.ep.rosidl_typesupport_introspection_c.c
+[1.850s] -- Up-to-date: /home/st/edu25/edu25_athome/happy_ws/install/service_msgs/local/lib/python3.10/dist-packages/service_msgs/srv
+[1.850s] -- Up-to-date: /home/st/edu25/edu25_athome/happy_ws/install/service_msgs/local/lib/python3.10/dist-packages/service_msgs/srv/__init__.py
+[1.851s] -- Up-to-date: /home/st/edu25/edu25_athome/happy_ws/install/service_msgs/local/lib/python3.10/dist-packages/service_msgs/srv/_string_command.py
+[1.851s] -- Up-to-date: /home/st/edu25/edu25_athome/happy_ws/install/service_msgs/local/lib/python3.10/dist-packages/service_msgs/srv/_string_command_s.c
+[1.852s] -- Up-to-date: /home/st/edu25/edu25_athome/happy_ws/install/service_msgs/local/lib/python3.10/dist-packages/service_msgs/__init__.py
+[1.853s] -- Up-to-date: /home/st/edu25/edu25_athome/happy_ws/install/service_msgs/local/lib/python3.10/dist-packages/service_msgs/service_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[1.853s] -- Up-to-date: /home/st/edu25/edu25_athome/happy_ws/install/service_msgs/local/lib/python3.10/dist-packages/service_msgs/_service_msgs_s.ep.rosidl_typesupport_c.c
+[1.853s] -- Up-to-date: /home/st/edu25/edu25_athome/happy_ws/install/service_msgs/local/lib/python3.10/dist-packages/service_msgs/service_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[1.854s] -- Up-to-date: /home/st/edu25/edu25_athome/happy_ws/install/service_msgs/local/lib/python3.10/dist-packages/service_msgs/_service_msgs_s.ep.rosidl_typesupport_fastrtps_c.c
+[1.973s] Listing '/home/st/edu25/edu25_athome/happy_ws/install/service_msgs/local/lib/python3.10/dist-packages/service_msgs'...
+[1.973s] Listing '/home/st/edu25/edu25_athome/happy_ws/install/service_msgs/local/lib/python3.10/dist-packages/service_msgs/srv'...
+[1.985s] -- Up-to-date: /home/st/edu25/edu25_athome/happy_ws/install/service_msgs/local/lib/python3.10/dist-packages/service_msgs/service_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[1.987s] -- Up-to-date: /home/st/edu25/edu25_athome/happy_ws/install/service_msgs/local/lib/python3.10/dist-packages/service_msgs/service_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[1.989s] -- Up-to-date: /home/st/edu25/edu25_athome/happy_ws/install/service_msgs/local/lib/python3.10/dist-packages/service_msgs/service_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[1.992s] -- Up-to-date: /home/st/edu25/edu25_athome/happy_ws/install/service_msgs/lib/libservice_msgs__rosidl_generator_py.so
+[1.993s] -- Up-to-date: /home/st/edu25/edu25_athome/happy_ws/install/service_msgs/share/service_msgs/srv/StringCommand.idl
+[1.993s] -- Up-to-date: /home/st/edu25/edu25_athome/happy_ws/install/service_msgs/share/service_msgs/srv/StringCommand.srv
+[1.993s] -- Up-to-date: /home/st/edu25/edu25_athome/happy_ws/install/service_msgs/share/service_msgs/srv/StringCommand_Request.msg
+[1.993s] -- Up-to-date: /home/st/edu25/edu25_athome/happy_ws/install/service_msgs/share/service_msgs/srv/StringCommand_Response.msg
+[1.994s] -- Up-to-date: /home/st/edu25/edu25_athome/happy_ws/install/service_msgs/share/ament_index/resource_index/package_run_dependencies/service_msgs
+[1.994s] -- Up-to-date: /home/st/edu25/edu25_athome/happy_ws/install/service_msgs/share/ament_index/resource_index/parent_prefix_path/service_msgs
+[1.994s] -- Up-to-date: /home/st/edu25/edu25_athome/happy_ws/install/service_msgs/share/service_msgs/environment/ament_prefix_path.sh
+[1.994s] -- Up-to-date: /home/st/edu25/edu25_athome/happy_ws/install/service_msgs/share/service_msgs/environment/ament_prefix_path.dsv
+[1.994s] -- Up-to-date: /home/st/edu25/edu25_athome/happy_ws/install/service_msgs/share/service_msgs/environment/path.sh
+[1.995s] -- Up-to-date: /home/st/edu25/edu25_athome/happy_ws/install/service_msgs/share/service_msgs/environment/path.dsv
+[1.998s] -- Up-to-date: /home/st/edu25/edu25_athome/happy_ws/install/service_msgs/share/service_msgs/local_setup.bash
+[1.999s] -- Up-to-date: /home/st/edu25/edu25_athome/happy_ws/install/service_msgs/share/service_msgs/local_setup.sh
+[1.999s] -- Up-to-date: /home/st/edu25/edu25_athome/happy_ws/install/service_msgs/share/service_msgs/local_setup.zsh
+[2.000s] -- Up-to-date: /home/st/edu25/edu25_athome/happy_ws/install/service_msgs/share/service_msgs/local_setup.dsv
+[2.000s] -- Installing: /home/st/edu25/edu25_athome/happy_ws/install/service_msgs/share/service_msgs/package.dsv
+[2.001s] -- Up-to-date: /home/st/edu25/edu25_athome/happy_ws/install/service_msgs/share/ament_index/resource_index/packages/service_msgs
+[2.002s] -- Up-to-date: /home/st/edu25/edu25_athome/happy_ws/install/service_msgs/share/service_msgs/cmake/export_service_msgs__rosidl_generator_cExport.cmake
+[2.002s] -- Up-to-date: /home/st/edu25/edu25_athome/happy_ws/install/service_msgs/share/service_msgs/cmake/export_service_msgs__rosidl_generator_cExport-noconfig.cmake
+[2.002s] -- Up-to-date: /home/st/edu25/edu25_athome/happy_ws/install/service_msgs/share/service_msgs/cmake/export_service_msgs__rosidl_typesupport_fastrtps_cExport.cmake
+[2.002s] -- Up-to-date: /home/st/edu25/edu25_athome/happy_ws/install/service_msgs/share/service_msgs/cmake/export_service_msgs__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[2.003s] -- Up-to-date: /home/st/edu25/edu25_athome/happy_ws/install/service_msgs/share/service_msgs/cmake/service_msgs__rosidl_typesupport_introspection_cExport.cmake
+[2.003s] -- Up-to-date: /home/st/edu25/edu25_athome/happy_ws/install/service_msgs/share/service_msgs/cmake/service_msgs__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[2.003s] -- Up-to-date: /home/st/edu25/edu25_athome/happy_ws/install/service_msgs/share/service_msgs/cmake/service_msgs__rosidl_typesupport_cExport.cmake
+[2.004s] -- Up-to-date: /home/st/edu25/edu25_athome/happy_ws/install/service_msgs/share/service_msgs/cmake/service_msgs__rosidl_typesupport_cExport-noconfig.cmake
+[2.004s] -- Up-to-date: /home/st/edu25/edu25_athome/happy_ws/install/service_msgs/share/service_msgs/cmake/export_service_msgs__rosidl_generator_cppExport.cmake
+[2.004s] -- Up-to-date: /home/st/edu25/edu25_athome/happy_ws/install/service_msgs/share/service_msgs/cmake/export_service_msgs__rosidl_typesupport_fastrtps_cppExport.cmake
+[2.005s] -- Up-to-date: /home/st/edu25/edu25_athome/happy_ws/install/service_msgs/share/service_msgs/cmake/export_service_msgs__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[2.005s] -- Up-to-date: /home/st/edu25/edu25_athome/happy_ws/install/service_msgs/share/service_msgs/cmake/service_msgs__rosidl_typesupport_introspection_cppExport.cmake
+[2.005s] -- Up-to-date: /home/st/edu25/edu25_athome/happy_ws/install/service_msgs/share/service_msgs/cmake/service_msgs__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[2.005s] -- Up-to-date: /home/st/edu25/edu25_athome/happy_ws/install/service_msgs/share/service_msgs/cmake/service_msgs__rosidl_typesupport_cppExport.cmake
+[2.006s] -- Up-to-date: /home/st/edu25/edu25_athome/happy_ws/install/service_msgs/share/service_msgs/cmake/service_msgs__rosidl_typesupport_cppExport-noconfig.cmake
+[2.006s] -- Up-to-date: /home/st/edu25/edu25_athome/happy_ws/install/service_msgs/share/service_msgs/cmake/export_service_msgs__rosidl_generator_pyExport.cmake
+[2.006s] -- Up-to-date: /home/st/edu25/edu25_athome/happy_ws/install/service_msgs/share/service_msgs/cmake/export_service_msgs__rosidl_generator_pyExport-noconfig.cmake
+[2.006s] -- Up-to-date: /home/st/edu25/edu25_athome/happy_ws/install/service_msgs/share/service_msgs/cmake/rosidl_cmake-extras.cmake
+[2.007s] -- Up-to-date: /home/st/edu25/edu25_athome/happy_ws/install/service_msgs/share/service_msgs/cmake/ament_cmake_export_include_directories-extras.cmake
+[2.007s] -- Up-to-date: /home/st/edu25/edu25_athome/happy_ws/install/service_msgs/share/service_msgs/cmake/ament_cmake_export_libraries-extras.cmake
+[2.007s] -- Up-to-date: /home/st/edu25/edu25_athome/happy_ws/install/service_msgs/share/service_msgs/cmake/ament_cmake_export_targets-extras.cmake
+[2.007s] -- Up-to-date: /home/st/edu25/edu25_athome/happy_ws/install/service_msgs/share/service_msgs/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[2.008s] -- Up-to-date: /home/st/edu25/edu25_athome/happy_ws/install/service_msgs/share/service_msgs/cmake/ament_cmake_export_dependencies-extras.cmake
+[2.009s] -- Up-to-date: /home/st/edu25/edu25_athome/happy_ws/install/service_msgs/share/service_msgs/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[2.009s] -- Up-to-date: /home/st/edu25/edu25_athome/happy_ws/install/service_msgs/share/service_msgs/cmake/service_msgsConfig.cmake
+[2.009s] -- Up-to-date: /home/st/edu25/edu25_athome/happy_ws/install/service_msgs/share/service_msgs/cmake/service_msgsConfig-version.cmake
+[2.010s] -- Up-to-date: /home/st/edu25/edu25_athome/happy_ws/install/service_msgs/share/service_msgs/package.xml
+[2.017s] Invoked command in '/home/st/edu25/edu25_athome/happy_ws/build/service_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/st/edu25/edu25_athome/happy_ws/install/service:/home/st/edu25/edu25_athome/happy_ws/install/my_happy:/opt/ros/humble /usr/bin/cmake --install /home/st/edu25/edu25_athome/happy_ws/build/service_msgs
